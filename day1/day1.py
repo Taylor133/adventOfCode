@@ -30,7 +30,6 @@ def slidingSums(a,b,c):
     else:
         return 0 + slidingSums(b,c,nextValue)
 
-
 #print(slidingSums(input.readline(),input.readline(),input.readline()))
 
 input.close()
