@@ -38,6 +38,6 @@ def calculateLocationAndAim():
 
     return position*depth
 
-print(calculateLocationAndAim())
+#print(calculateLocationAndAim())
 
 input.close()
