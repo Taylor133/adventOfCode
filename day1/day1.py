@@ -12,9 +12,9 @@ def count(line):
     elif int(value)> int(line):
         return 1 + count(value)
     else:
-        return 0 + count(value)
+        return count(value)
     
-#print(count(input.readline()))
+print(count(input.readline()))
 
 #PART B
 
@@ -28,7 +28,7 @@ def slidingSums(a,b,c):
     if nextWindow > prevWindow:
         return 1 + slidingSums(b,c,nextValue)
     else:
-        return 0 + slidingSums(b,c,nextValue)
+        return slidingSums(b,c,nextValue)
 
 #print(slidingSums(input.readline(),input.readline(),input.readline()))
 
